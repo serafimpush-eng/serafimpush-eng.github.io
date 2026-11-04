@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JobSearch OS</title>
+<meta name="description" content="JobSearch OS is a personal, single-user job search assistant.">
+<style>
+  :root { --bg:#ffffff; --fg:#1d1d1f; --muted:#5f6368; --line:#e3e3e6; --link:#0b57d0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141416; --fg:#ececee; --muted:#a0a0a8; --line:#2c2c30; --link:#8ab4f8; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:32px; line-height:1.2; margin:0 0 8px; }
+  h2 { font-size:20px; margin:32px 0 8px; }
+  p, li { color:var(--fg); }
+  .lead { color:var(--muted); font-size:18px; margin:0 0 24px; }
+  a { color:var(--link); }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>JobSearch OS</h1>
+  <p class="lead">A personal, single-user job search assistant. It is not a public service and has no other users.</p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Collects job vacancies from public job boards and filters them by the owner's criteria.</li>
+    <li>Prepares draft cover letters and keeps a list of the owner's applications.</li>
+    <li>Reads the owner's own Gmail inbox to notice replies from employers.</li>
+    <li>Sends an email to an employer only after the owner approves that specific message.</li>
+  </ul>
+
+  <h2>Google account access</h2>
+  <p>The app signs in only to its owner's own Google account. It uses the Gmail API to read the owner's messages about job applications and to send messages the owner has approved. All data stays on the owner's own computer. Details are in the <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> · <a href="https://github.com/serafimpush-eng">GitHub</a>
+  </footer>
+</main>
+</body>
+</html>

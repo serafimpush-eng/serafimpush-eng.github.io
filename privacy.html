@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title>
+<meta name="description" content="Privacy Policy for JobSearch OS, a personal single-user job search assistant.">
+<style>
+  :root { --bg:#ffffff; --fg:#1d1d1f; --muted:#5f6368; --line:#e3e3e6; --link:#0b57d0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141416; --fg:#ececee; --muted:#a0a0a8; --line:#2c2c30; --link:#8ab4f8; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font:16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:32px; line-height:1.2; margin:0 0 8px; }
+  h2 { font-size:20px; margin:32px 0 8px; }
+  .lead { color:var(--muted); margin:0 0 24px; }
+  a { color:var(--link); }
+  code { font-size:14px; }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="lead">JobSearch OS · Effective date: 4 November 2026</p>
+
+  <p>JobSearch OS ("the app") is a personal job search assistant that runs on its owner's own computer. It is used by one person, its owner, and is not offered to the public. This policy explains what Google user data the app accesses and what it does with it.</p>
+
+  <h2>Data the app accesses</h2>
+  <p>The app connects only to its owner's own Google account, using these Gmail API scopes:</p>
+  <ul>
+    <li><code>gmail.readonly</code>: to read the owner's messages related to job applications, such as replies from employers and recruiters.</li>
+    <li><code>gmail.send</code>: to send application emails that the owner has reviewed and approved one by one.</li>
+  </ul>
+
+  <h2>How the data is used</h2>
+  <ul>
+    <li>Email content is used only to track the status of the owner's job applications and to show the owner new replies.</li>
+    <li>The app never sends an email without the owner's explicit approval of that specific message.</li>
+    <li>Google user data is not used for advertising, is not sold, and is not used to train AI or machine learning models.</li>
+  </ul>
+
+  <h2>Storage and sharing</h2>
+  <ul>
+    <li>Data is stored only on the owner's own computer, in a local database. Access tokens are kept in the operating system's secure keychain.</li>
+    <li>Google user data is not shared with or transferred to any third party.</li>
+  </ul>
+
+  <h2>Limited Use</h2>
+  <p>The app's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Retention and deletion</h2>
+  <p>The owner can delete the app's local data at any time and can revoke the app's access in their Google account at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be sent through the owner's GitHub profile: <a href="https://github.com/serafimpush-eng">github.com/serafimpush-eng</a>.</p>
+
+  <footer>
+    <a href="index.html">JobSearch OS</a>
+  </footer>
+</main>
+</body>
+</html>
